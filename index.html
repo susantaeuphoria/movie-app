@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Should I Watch It? | Movie Discovery</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-film"></i>
+                <span>Movie<span class="highlight">Zone</span></span>
+            </a>
+
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#main">Movies</a>
+                <a href="#about">About</a>
+            </nav>
+
+            <a href="#main" class="nav-btn">Explore Movies <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">
+                <i class="fa-solid fa-fire"></i> Discover Your Next Favorite
+            </span>
+
+            <h1>Find Movies Worth <span>Watching.</span></h1>
+
+            <p>
+                Explore trending movies, discover hidden gems,
+                and find your next unforgettable movie experience.
+            </p>
+
+            <form id="form" class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input
+                    type="text"
+                    placeholder="Search your favorite movies..."
+                    id="search"
+                    class="search"
+                >
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="hero-stats">
+                <div>
+                    <h3>10K+</h3>
+                    <span>Movies</span>
+                </div>
+                <div>
+                    <h3>100%</h3>
+                    <span>Discovery</span>
+                </div>
+                <div>
+                    <h3>24/7</h3>
+                    <span>Entertainment</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section class="movies-section" id="main">
+        <div class="section-heading">
+            <div>
+                <span class="section-tag">EXPLORE COLLECTION</span>
+                <h2>Popular <span>Movies</span></h2>
+                <p>Find something amazing to watch today.</p>
+            </div>
+            <span class="movie-label">
+                <i class="fa-solid fa-clapperboard"></i> Trending Now
+            </span>
+        </div>
+
+        <div class="movie-container" id="movie-container"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-icon">
+            <i class="fa-solid fa-ticket"></i>
+        </div>
+        <h2>Not Sure What to <span>Watch?</span></h2>
+        <p>
+            We make discovering movies easier. Search, explore ratings,
+            read movie descriptions, and find your next favorite film.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-film"></i>
+                    <span>Movie<span class="highlight">Zone</span></span>
+                </a>
+                <p>
+                    Your ultimate destination to discover movies
+                    and explore cinematic entertainment.
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#main">Popular Movies</a>
+                <a href="#about">About Us</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="#main">Trending Movies</a>
+                <a href="#main">Top Rated</a>
+                <a href="#main">Discover</a>
+            </div>
+
+            <div class="footer-info">
+                <h3>MovieZone</h3>
+                <p><i class="fa-solid fa-film"></i> Made for Movie Lovers</p>
+                <p><i class="fa-solid fa-database"></i> Powered by TMDB API</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 MovieZone. All Rights Reserved.</p>
+            <p>Made with <i class="fa-solid fa-heart"></i> for Movie Lovers</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
